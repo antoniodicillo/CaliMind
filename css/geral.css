@@ -1,0 +1,30 @@
+body{
+    background-color: #FAFAFA;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #FAFAFA;
+    backdrop-filter: blur(10px);
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+.header-button-links{
+    background-color: #FAFAFA;
+    border: 0px none;
+}
+.header-links{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    background-color: #FAFAFA;
+    backdrop-filter: blur(10px);
+    left: -300px;
+}
