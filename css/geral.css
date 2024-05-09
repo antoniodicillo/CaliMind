@@ -1,19 +1,21 @@
 body{
     background-color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
 }
+
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     background-color: #FAFAFA;
     backdrop-filter: blur(10px);
     position: relative;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    
+    font-family: initial;
+    padding: 15px 40px;
 }
 .header-button-links{
     background-color: #FAFAFA;
@@ -26,5 +28,94 @@ header{
     padding: 16px 16px;
     background-color: #FAFAFA;
     backdrop-filter: blur(10px);
-    left: -300px;
+    left: -150px;
+    transition: 1s ease-in-out;
+    visibility: hidden;
+}
+.header-links a{
+    color: #131313;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.header-button-links:focus  + .header-links{
+    transition: 0.5s ease-in;
+    visibility: visible;
+    left: 35px;
+}
+
+
+.button-white{
+    font-family: initial;
+    color: #59B4D0;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 0px none;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+}
+.button-blue{
+    font-family: initial;
+    color: #FAFAFA;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 0px none;
+    border-radius: 10px;
+    background-color: #59B4D0;
+    -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-div-perguntas{
+    position: relative;
+    background-color: #59B4D0;
+    width: 80%;
+    border-radius: 10px;
+    color: #FAFAFA;
+    font-family: initial;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -50px;
+}
+.footer-div{
+    background-color: rgba(89, 180, 208, 0.5);
+    width: 98%;
+    border-radius: 10px;
+    color: #131313;
+    font-family: initial;
+    padding: 80px 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-alilhar-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 40px;
+}
+.footer-alilhar-colum a{
+    color: #131313;
+    text-decoration: none;
+    margin-bottom:7px;
+}
+.footer-div-contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+.footer-icones a{
+    margin-right: 12px;
 }
