@@ -1,0 +1,31 @@
+.section-1{
+    padding: 20px 30px 50px 30px;
+    color: #FAFAFA;
+}
+.section-1-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../public/Section.svg');
+}
+.borda{
+    width: 10px;
+    height: 100%;
+    margin-left: 10px;
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 5px;
+}
+.caixa-blue-transparente{
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    position: relative;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(89, 180, 208, 0.5);
+}
+.section-1-div-texto{
+    margin-left: 40px;
+}
