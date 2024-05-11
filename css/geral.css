@@ -17,16 +17,18 @@ header{
     background: rgba(250, 250, 250, 0.38);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);
-    position: relative;
-    max-width: 1280px;
+    position: sticky;
+    width: 100%;
+    z-index: 1000; 
     font-family: initial;
-    padding: 15px 40px;
+    position: fixed;
     left: 0px;
     top: 0px;
 }
 .header-button-links{
     background-color: transparent;
     border: 0px none;
+    margin: 20px 0px 20px 40px;
 }
 .header-links{
     position: absolute;
@@ -34,8 +36,9 @@ header{
     flex-direction: column;
     padding: 16px 16px;
     background-color: #FAFAFA;
+    border-radius: 10px;
     left: -150px;
-    top: 70px;
+    top: 72px;
     transition: 1s ease-in-out;
     visibility: hidden;
 }
@@ -49,9 +52,13 @@ header{
     visibility: visible;
     left: 35px;
 }
+header .button-white{
+    margin-right: 40px;
+}
 @media screen and (max-width: 600px){
     header{
         justify-content: center;
+        margin: 0px 0px 20px 0px;
     }
     header .button-white{
         visibility: hidden;
@@ -65,7 +72,7 @@ header{
         justify-content: center;
     } 
     .header-button-links:focus  + .header-links{
-        left: 0px;
+        left: -20px;
     }
     .header-links a{
         color: #131313;
