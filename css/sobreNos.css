@@ -68,6 +68,7 @@
 .caixa-blue-grande{
     padding: 10px;
     border-radius: 10px;
+    width: 700px;
     max-width: 700px;
     position: relative;
     margin: 30px;
@@ -93,9 +94,11 @@
     background-color: #FAFAFA;
 }
 .pessoa-img{
-    width: 250px;
+    max-width: 250px;
     height: 250px;
     margin-left: 10px;
+    filter: drop-shadow(10px 5px 10px #131313);
+    
 }
 .section-2-div-texto{
     max-width: 410px;
