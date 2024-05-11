@@ -4,6 +4,9 @@ body{
     font-weight: 100px;
     font-style: normal;
 }
+h1{
+    font-size: 35px;
+}
 
 
 header{
@@ -11,14 +14,18 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #FAFAFA;
-    backdrop-filter: blur(10px);
+    background: rgba(250, 250, 250, 0.38);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
     position: relative;
+    max-width: 1280px;
     font-family: initial;
     padding: 15px 40px;
+    left: 0px;
+    top: 0px;
 }
 .header-button-links{
-    background-color: #FAFAFA;
+    background-color: transparent;
     border: 0px none;
 }
 .header-links{
@@ -27,8 +34,8 @@ header{
     flex-direction: column;
     padding: 16px 16px;
     background-color: #FAFAFA;
-    backdrop-filter: blur(10px);
     left: -150px;
+    top: 70px;
     transition: 1s ease-in-out;
     visibility: hidden;
 }
@@ -38,9 +45,33 @@ header{
     margin-bottom: 10px;
 }
 .header-button-links:focus  + .header-links{
-    transition: 0.5s ease-in;
+    transition: 0.5s linear;
     visibility: visible;
     left: 35px;
+}
+@media screen and (max-width: 600px){
+    header{
+        justify-content: center;
+    }
+    header .button-white{
+        visibility: hidden;
+        position: absolute;
+    }
+    .header-links{
+        flex-direction: row;
+        width: 100%;
+        left: -600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .header-button-links:focus  + .header-links{
+        left: 0px;
+    }
+    .header-links a{
+        color: #131313;
+        text-decoration: none;
+        margin: 20px;
+    }
 }
 
 
@@ -75,6 +106,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 .footer-div-perguntas{
     position: relative;
