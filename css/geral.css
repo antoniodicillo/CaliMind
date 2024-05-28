@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     background-color: #FAFAFA;
     font-family: "Poppins", sans-serif;
-    font-weight: 100px;
+    font-weight: 400px;
     font-style: normal;
 }
+
 h1{
     font-size: 35px;
 }
@@ -20,7 +22,7 @@ header{
     position: sticky;
     width: 100%;
     z-index: 1000; 
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -83,7 +85,7 @@ header .button-white{
 
 
 .button-white{
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     color: #59B4D0;
     font-size: 20px;
     padding: 8px 20px;
@@ -95,7 +97,7 @@ header .button-white{
     box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.38);
 }
 .button-blue{
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     color: #FAFAFA;
     font-size: 20px;
     padding: 8px 20px;
@@ -121,7 +123,7 @@ footer{
     width: 80%;
     border-radius: 10px;
     color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     padding: 10px 50px;
     display: flex;
     justify-content: space-between;
@@ -133,7 +135,7 @@ footer{
     width: 98%;
     border-radius: 10px;
     color: #131313;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     padding: 80px 1%;
     display: flex;
     justify-content: space-around;

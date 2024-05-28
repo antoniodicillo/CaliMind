@@ -36,7 +36,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-1-organizar{
     display: flex;
@@ -48,7 +48,7 @@
 .section-2{
     width: 100%;
     margin: 100px 0px;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;

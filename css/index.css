@@ -1,3 +1,4 @@
+
 .section-1{
     padding: 100px 30px 50px 30px;
     color: #FAFAFA;
@@ -25,7 +26,7 @@
     flex-direction: row;
     align-items: center;
     background-color: rgba(89, 180, 208, 0.5);
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-1-div-texto{
     margin-left: 40px;
@@ -45,7 +46,7 @@
     text-align: center;
     max-width: 800px;
     color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     padding: 0px 30px 0px 30px;
 }
 .borda-2{
@@ -66,7 +67,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-2-organizar{
     display: flex;
@@ -86,7 +87,7 @@
 .section-3-text{
     text-align: center;
     max-width: 800px;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
     padding: 0px 30px 60px 30px;
 }
 .section-3-inform{
@@ -95,7 +96,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .img-grande{
     margin: 0px 50px 60px 50px;
@@ -125,7 +126,7 @@
     background-color: #59B4D0;
     border-radius: 10px;
     color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-4-cards{
     display: flex;
@@ -144,6 +145,7 @@
     position: relative;
     display: flex;
     align-items: end;
+    color: #FAFAFA;
 }
 .borda-2-pequena{
     width: 90px;
@@ -178,7 +180,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-5-text{
     width: 350px;
@@ -204,7 +206,7 @@
     background-color: #59B4D0;
     border-radius: 10px;
     color: #FAFAFA;
-    font-family: initial;
+    font-family: "Poppins", sans-serif;
 }
 .section-6-img{
     width: 450px;
