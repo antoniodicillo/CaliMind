@@ -6,7 +6,10 @@
 .section-1-img{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url('../public/Section.svg');
+    background-image: url('../public/1-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .borda{
     width: 10px;
@@ -101,6 +104,7 @@
 .img-grande{
     margin: 0px 50px 60px 50px;
     max-width: 400px;
+    border-radius: 15px;
 }
 .section-3-organizar{
     max-width: 400px;
@@ -211,7 +215,10 @@
 .section-6-img{
     width: 450px;
     height: 450px;
-    background-image: url('../public/Section.svg');
+    background-image: url('../public/1-img-ultima.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
 }
 .section-6-perguntas{
