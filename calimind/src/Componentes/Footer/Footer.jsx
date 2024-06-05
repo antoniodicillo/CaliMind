@@ -20,10 +20,10 @@ function Footer() {
                 <div class="footer-alilhar-colum">
                     <h2>Links</h2>
                     <a href="#">Home</a>
-                    <a href="">Sobre Nos</a>
-                    <a href="">Teste Pratico</a>
-                    <a href="">Login</a>
-                    <a href="">Sing In</a>
+                    <a href="/Sobre">Sobre Nos</a>
+                    <a href="/Alimentacao">Alimentação</a>
+                    <a href="/Login">Login</a>
+                    <a href="/SingIn">Sing In</a>
                 </div>
 
                 <div class="footer-alilhar-colum">

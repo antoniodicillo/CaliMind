@@ -1,4 +1,4 @@
-.section-1{
+.sobre-section-1{
     padding: 100px 0px 100px 0px;
     display: flex;
     flex-direction: column;
@@ -8,17 +8,17 @@
     border-radius: 10px;
     margin-top: 100px;
 }
-.section-1-text{
+.sobre-section-1-text{
     text-align: center;
     max-width: 800px;
     color: #FAFAFA;
     font-family: initial;
     padding: 0px 30px 0px 30px;
 }
-.section-1-div-texto{
+.sobre-section-1-div-texto{
     margin-left: 40px;
 }
-.borda-2{
+.sobre-borda-2{
     width: 10px;
     height: 100%;
     margin-left: 10px;
@@ -26,7 +26,7 @@
     position: absolute;
     left: 5px;
 }
-.caixa-white-transparente{
+.sobre-caixa-white-transparente{
     padding: 20px;
     border-radius: 10px;
     max-width: 350px;
@@ -38,14 +38,14 @@
     background-color: #FAFAFA;
     font-family: "Poppins", sans-serif;
 }
-.section-1-organizar{
+.sobre-section-1-organizar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1300px;
 }
 
-.section-2{
+.sobre-section-2{
     width: 100%;
     margin: 100px 0px;
     font-family: "Poppins", sans-serif;
@@ -54,10 +54,10 @@
     align-items: center;
     justify-content: center;
 }
-.titulo{
+.sobre-titulo{
     margin-bottom: 100px;
 }
-.section-2-organizar{
+.sobre-section-2-organizar{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -65,7 +65,7 @@
     flex-wrap: wrap;
     width: 100%;
 }
-.caixa-blue-grande{
+.sobre-caixa-blue-grande{
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -80,7 +80,7 @@
     background-color: #59B4D0;
     color: #FAFAFA;
 }
-.borda{
+.sobre-borda{
     width: 10px;
     height: 100%;
     margin-left: 10px;
@@ -88,23 +88,23 @@
     position: absolute;
     left: 0px;
 }
-.borda-2{
+.sobre-borda-2{
     width: 10px;
     height: 100%;
     background-color: #FAFAFA;
 }
-.pessoa-img{
+.sobre-pessoa-img{
     max-width: 250px;
     height: 250px;
     margin-left: 10px;
     filter: drop-shadow(10px 5px 10px #131313);
     
 }
-.section-2-div-texto{
+.sobre-section-2-div-texto{
     max-width: 410px;
     margin-left: 10px;
 }
-.caixa-blue-pequena{
+.sobre-caixa-blue-pequena{
     padding: 10px;
     border-radius: 10px;
     width: 300px;
@@ -117,10 +117,10 @@
     background-color: #59B4D0;
     color: #FAFAFA;
 }
-.caixa-blue-pequena h1{
+.sobre-caixa-blue-pequena h1{
     margin: 0px 0px 18px 0px;
 }
-.div-contato{
+.sobre-div-contato{
     display: flex;
     flex-direction: row;
     width: 220px;

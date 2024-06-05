@@ -15,7 +15,7 @@ function Header({ title, menuItems }) {
             </div>
         </div>
 
-        <button class="button-white">Entrar</button>
+        <a href="/Login"><button class="button-white">Entrar</button></a>
     </header>
   );
 }
