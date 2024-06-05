@@ -94,29 +94,29 @@ function Home() {
             <h1>Ultimas Novidades</h1>
 
             <div className="home-section-4-cards">
-                <div className="home-section-4-card">
+                <div className="home-section-4-card home-section-4-card-1">
                     <div className="home-borda-2-pequena"></div>
                     <div className="home-section-4-card-text">
-                        <h3>Humans are much more smarter than AI</h3>
-                        <p>Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.v</p>
+                        <h3>Agulhas negras lança um artigo sobre calistenia</h3>
+                        <p>A Agulhas Negras estudou sobre a calistenia e seus benefícios para o condicionamento físico e saúde.</p>
                         <h3><a href="#">saiba mais</a></h3>
                     </div>
                 </div>
 
-                <div className="home-section-4-card">
+                <div className="home-section-4-card home-section-4-card-2">
                     <div className="home-borda-2-pequena"></div>
                     <div className="home-section-4-card-text">
-                        <h3>Humans are much more smarter than AI</h3>
-                        <p>Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.v</p>
+                        <h3>Estrelas da Calistenia</h3>
+                        <p> Atletas de calistenia ganham visibilidade, inspirando milhões com suas habilidades físicas.</p>
                         <h3><a href="#">saiba mais</a></h3>
                     </div>
                 </div>
 
-                <div className="home-section-4-card">
+                <div className="home-section-4-card home-section-4-card-3">
                     <div className="home-borda-2-pequena"></div>
                     <div className="home-section-4-card-text">
-                        <h3>Humans are much more smarter than AI</h3>
-                        <p>Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.v</p>
+                        <h3>Calistenia para Todas as Idades</h3>
+                        <p>Estudos destacam os benefícios da calistenia para idosos, promovendo força, equilíbrio e mobilidade.</p>
                         <h3><a href="#">saiba mais</a></h3>
                     </div>
                 </div>

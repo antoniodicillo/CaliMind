@@ -5,8 +5,8 @@ const Sobre = ()=>{
         <main>
           <section className="sobre-section-1">
             <div className="sobre-section-1-text">
-                <h1>Nós Oferecemos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed. Suspendisse lobortis vitae quis vehicula pellentesque sit id</p>
+                <h1>Olá nos somos a CaliMind</h1>
+                <p>A Calimind oferece um aplicativo inovador que utiliza Inteligência Artificial para orientar e treinar iniciantes em calistenia, fornecendo uma experiência personalizada e eficaz de fitness em casad</p>
             </div>
 
             <div className="sobre-section-1-organizar">

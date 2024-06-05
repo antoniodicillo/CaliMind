@@ -6,9 +6,9 @@ import {Outlet} from 'react-router-dom';
 function App() {
   const menuItems = [
     { text: 'Home', link: '/' },
-    { text: 'Sobre', link: '/Sobre' },
+    { text: 'Sobre Nos', link: '/Sobre' },
     { text: 'Alimentação', link: '/Alimentacao' },
-    { text: 'SingIn', link: '/SingIn' },
+    { text: 'Sing In', link: '/SingIn' },
     { text: 'Login', link: '/Login' },
   ];
   return (

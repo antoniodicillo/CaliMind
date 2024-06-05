@@ -40,7 +40,7 @@ header{
     background-color: #FAFAFA;
     border-radius: 10px;
     left: -150px;
-    top: 72px;
+    top: 88px;
     transition: 1s ease-in-out;
     visibility: hidden;
 }

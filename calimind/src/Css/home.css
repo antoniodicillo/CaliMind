@@ -101,8 +101,8 @@
     font-family: "Poppins", sans-serif;
 }
 .home-img-grande{
-    margin: 0px 50px 60px 50px;
-    max-width: 400px;
+    margin: 0px 0px 60px 0px;
+    max-width: 600px;
     border-radius: 15px;
 }
 .home-section-3-organizar{
@@ -144,11 +144,19 @@
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 10px;
-    background-image: url('../public/Section.svg');
     position: relative;
     display: flex;
     align-items: end;
     color: #FAFAFA;
+}
+.home-section-4-card-1{
+    background-image: url('../public/Noticia1.svg');
+}
+.home-section-4-card-2{
+    background-image: url('../public/Noticia2.svg');
+}
+.home-section-4-card-3{
+    background-image: url('../public/Noticia3.svg');
 }
 .home-borda-2-pequena{
     width: 90px;
@@ -193,6 +201,9 @@
     color: #59B4D0;
     font-weight: bolder;
 }
+.home-section-5 h1 span{
+    font-size: 36px;
+}
 .home-section-5 img{
     width: 100%;
     max-width: 500px;
@@ -232,10 +243,11 @@
     border-radius: 10px;
     padding: 10px 20px;
     margin: 10px;
-    max-width: 500px;
+    min-width: 300px;
+    width: 500px;
+    height: 40px;
     display: flex;
     align-items: center;
-    overflow: hidden;
     position: relative;
     transition: 0.5s linear;
 }
@@ -247,14 +259,23 @@
 }
 .home-section-6-pergunta p{
     position: absolute;
-    bottom: -100px;
+    bottom: 5px;
+    background: rgba(250, 250, 250, 0.38);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    padding: 5px;
+    left: 0px;
+    border-radius: 5px;
+    transition: 0.5s linear;
+    visibility: hidden;
 }
 .button{
     background-color: transparent;
     border: none;
     font-size: 30px;
 }
-.button:focus + .section-6-pergunta{
+.home-section-6-pergunta:hover + .home-section-6-pergunta p{
     transition: 0.5s linear;
-    height: 400px;
+    background-color: #FAFAFA;
+    visibility: visible;
 }
