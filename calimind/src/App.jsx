@@ -1,7 +1,7 @@
 import Header from './Componentes/Header/index';
 import Footer from './Componentes/Footer/Footer';
 import {Outlet} from 'react-router-dom';
-import './index.css'
+
 
 function App() {
   const menuItems = [
