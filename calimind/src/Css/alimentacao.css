@@ -65,7 +65,7 @@
     font-family: "Poppins", sans-serif;
 }
 .alimentacao-section-2-text{
-    width: 550px;
+    max-width: 550px;
     margin-bottom: 30px;
 }
 .alimentacao-section-2-text p{
@@ -107,4 +107,12 @@
 .alimentacao-section-2-card-text a{
     text-decoration: none;
     color: #59B4D0;
+}
+@media screen and (max-width: 600px){
+    .alimentacao-section-2-text{
+        width: 300px;
+    }
+    .alimentacao-section-2-text p{
+        width: 300px;
+    }
 }

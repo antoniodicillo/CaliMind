@@ -57,3 +57,9 @@ span{
     font-weight: bolder;
     font-size: large;
 }
+@media screen and (max-width: 600px){
+    .singin-caixa-blue{
+        width: 300px;
+        margin: 0px 10px;
+    }
+}

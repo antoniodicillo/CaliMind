@@ -257,7 +257,7 @@
 }
 .section-6-pergunta p{
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     background: rgba(250, 250, 250, 0.38);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);

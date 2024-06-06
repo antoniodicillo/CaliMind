@@ -60,6 +60,7 @@ header .button-white{
 @media screen and (max-width: 600px){
     header{
         justify-content: center;
+        width: 100vw;
         margin: 0px 0px 20px 0px;
     }
     header .button-white{
@@ -124,8 +125,9 @@ footer{
     border-radius: 10px;
     color: #FAFAFA;
     font-family: "Poppins", sans-serif;
-    padding: 10px 50px;
+    padding: 20px 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     bottom: -50px;
@@ -138,6 +140,7 @@ footer{
     font-family: "Poppins", sans-serif;
     padding: 80px 1%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -154,9 +157,16 @@ footer{
 }
 .footer-div-contatos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: top;
+    justify-content: center;
 }
 .footer-icones a{
     margin-right: 12px;
+}
+@media screen and (max-width: 600px){
+    .footer-div-perguntas{
+        padding: 20px 25px;
+    }
 }
