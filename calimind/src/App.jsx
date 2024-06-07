@@ -8,7 +8,7 @@ function App() {
     { text: 'Home', link: '/' },
     { text: 'Sobre Nos', link: '/Sobre' },
     { text: 'Alimentação', link: '/Alimentacao' },
-    { text: 'Sing In', link: '/SingIn' },
+    { text: 'Sign In', link: '/SignIn' },
     { text: 'Login', link: '/Login' },
   ];
   return (

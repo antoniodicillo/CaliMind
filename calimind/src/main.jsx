@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Alimentacao from './pages/Alimentacao'
 import Sobre from './pages/Sobre'
 import Login from './pages/Login.jsx'
-import SingIn from './pages/SingIn'
+import SignIn from './pages/SignIn'
 import Home from './pages/Home'
 import './index.css'
 
@@ -23,8 +23,8 @@ const router = createBrowserRouter([{
       element: <Sobre />,
     },
     {
-      path: 'SingIn',
-      element: <SingIn />,
+      path: 'SignIn',
+      element: <SignIn />,
     },
     {
       path: 'Login',

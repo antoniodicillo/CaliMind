@@ -10,7 +10,7 @@ function Login() {
                     <h1>Login</h1>
                     <input type="email" placeholder="exemplo@gmail.com"/>
                     <input type="password" placeholder="123456Abc."/>
-                    <a className='login-a' href="./SingIn.jsx"><h4>Não Tem Conta? <span className='login-span'>Sing In</span></h4></a>
+                    <a className='login-a' href="/SignIn"><h4>Não Tem Conta? <span className='login-span'>Sign In</span></h4></a>
                     <button className="button-white">Entrar</button>
                 </form>
             </div>
